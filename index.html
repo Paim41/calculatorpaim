@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | Paim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="buttons">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+            </div>
+            <div class="title">root@dev-machine: ~/calculator</div>
+        </div>
+
+        <div class="screen">
+            <div id="prev-operation"></div>
+            <div id="current-output">0</div>
+        </div>
+
+        <div class="keypad">
+            <button class="key cmd" onclick="clearScreen()">CLR</button>
+            <button class="key cmd" onclick="deleteLast()">DEL</button>
+            <button class="key op" onclick="appendValue('/')">/</button>
+            <button class="key op" onclick="appendValue('*')">*</button>
+            
+            <button class="key" onclick="appendValue('7')">7</button>
+            <button class="key" onclick="appendValue('8')">8</button>
+            <button class="key" onclick="appendValue('9')">9</button>
+            <button class="key op" onclick="appendValue('-')">-</button>
+            
+            <button class="key" onclick="appendValue('4')">4</button>
+            <button class="key" onclick="appendValue('5')">5</button>
+            <button class="key" onclick="appendValue('6')">6</button>
+            <button class="key op" onclick="appendValue('+')">+</button>
+            
+            <button class="key" onclick="appendValue('1')">1</button>
+            <button class="key" onclick="appendValue('2')">2</button>
+            <button class="key" onclick="appendValue('3')">3</button>
+            <button class="key execute" onclick="calculate()">EXE</button>
+            
+            <button class="key wide" onclick="appendValue('0')">0</button>
+            <button class="key" onclick="appendValue('.')">.</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
