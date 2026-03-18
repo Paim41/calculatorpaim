@@ -1,0 +1,1 @@
+Calculator Paim is a retro-futuristic, CLI-inspired calculator built for developers, IT professionals, and anyone who misses the aesthetic of a glowing green CRT monitor. It moves away from the "flat" design of modern apps and leans into the gritty, functional look of a Linux terminal.
