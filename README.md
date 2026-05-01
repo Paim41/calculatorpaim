@@ -1,46 +1,65 @@
-# 🧮 Calculator Paim
+# 🧮 Cracktor
 
-Calculator Paim is a lightweight and responsive web-based calculator designed to perform basic arithmetic operations quickly and efficiently. It provides real-time results with a clean and intuitive user interface, making it suitable for everyday use.
+Cracktor is a powerful and modern calculator web application designed to handle everything from basic arithmetic to advanced scientific calculations. With a sleek interface and smooth user experience, it simplifies complex computations for students, developers, and everyday users.
 
-🔗 Live Demo: https://calculatorpaim.vercel.app/
+🔗 Live Demo: https://cracktor.vercel.app/
 
 ---
 
 ## ✨ Features
 
-- ➕ Basic arithmetic operations (addition, subtraction, multiplication, division)
-- ⚡ Real-time calculation results
-- 🎯 Simple and user-friendly interface
-- 📱 Responsive design (works on desktop & mobile)
-- 🌐 Accessible directly from the browser (no installation required)
+- ➕ Standard calculator (basic arithmetic operations)  
+- 🧪 Scientific calculator (advanced math functions)  
+- 🤖 AI-powered calculator (smart input handling, if implemented)  
+- ⚡ Fast and responsive performance  
+- 🎨 Clean UI with modern design  
+- 🌗 Light/Dark mode support  
+- 📱 Fully responsive across devices  
 
 ---
 
-## 🧠 Purpose
+## 🎯 Purpose
 
-This project was developed to:
+Cracktor aims to:
 
-- Practice fundamental web development skills  
-- Demonstrate how calculation logic works in web applications  
-- Provide a simple tool for quick daily calculations  
-
-Web-based calculators allow users to perform instant computations without installing software, improving accessibility and convenience. :contentReference[oaicite:0]{index=0}  
+- Provide a complete all-in-one calculator tool  
+- Help users solve both simple and complex calculations  
+- Deliver a smooth and intuitive user experience  
+- Combine modern design with practical functionality  
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript  
-- **Logic:** JavaScript arithmetic operations  
+- **Framework (if used):** (e.g. React / Vite / Tailwind CSS)  
 - **Deployment:** Vercel  
 
-Vercel enables fast and scalable deployment of web applications with minimal setup. :contentReference[oaicite:1]{index=1}  
+---
+
+## ⚡ How It Works
+
+Cracktor allows users to perform calculations through an interactive interface. It supports:
+
+- Basic operations (addition, subtraction, multiplication, division)  
+- Advanced functions (trigonometry, powers, roots, etc.)  
+- Real-time input and instant results  
+
+Modern calculator apps are designed to be fast, accurate, and user-friendly, helping users solve problems efficiently without complex steps :contentReference[oaicite:0]{index=0}.
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/calculator-paim.git
-cd calculator-paim
+# Clone the repository
+git clone https://github.com/your-username/cracktor.git
+
+# Navigate into the project
+cd cracktor
+
+# Install dependencies (if applicable)
+npm install
+
+# Run development server
+npm run dev
